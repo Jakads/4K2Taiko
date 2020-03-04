@@ -7,6 +7,9 @@ class InvalidPatternException(Exception):
     def __init__(self, msg):
         super().__init__(msg)
 
+print('4K2Taiko v1.0.0')
+print('by Jakads\n')
+
 if len(sys.argv) != 2:
     print('drag single file into this program.')
     getch()
@@ -165,7 +168,7 @@ try:
         for line in new_osu_list:
             osu.write(line)
 
-    print('done?')
+    print('done.')
     getch()
 
 except:
