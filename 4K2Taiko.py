@@ -13,7 +13,7 @@ print('by Jakads\n')
 if len(sys.argv) != 2:
     print('drag single file into this program.')
     getch()
-    exit()
+    sys.exit()
 
 file_path = sys.argv[1]
 
