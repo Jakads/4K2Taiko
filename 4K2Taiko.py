@@ -7,7 +7,7 @@ class InvalidPatternException(Exception):
     def __init__(self, msg):
         super().__init__(msg)
 
-print('4K2Taiko v1.0.0')
+print('4K2Taiko v1.0.1')
 print('by Jakads\n')
 
 # need exactly one .osu file dragged in
